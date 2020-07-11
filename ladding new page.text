@@ -1,0 +1,473 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>Landing Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+    h4.a {
+  visibility: visible;
+    }
+       .fishes
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    
+    }
+    .fish-bg{
+      background-image:url(../Images/path1.jpg) ;
+    }
+    .bg-full{
+      width: 100%;
+      height: 90%;
+    }
+    .bg-80{
+      height: 80% !important;
+    }
+    /* .fish
+    {
+      position: absolute;
+      top: 40px;
+      left: 60px;
+      
+     
+    } */
+/* .navbar {
+    margin-bottom: 0;
+    background-color: white;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  } */
+
+/* img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.column2 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
+
+.bg-black {
+
+  background-color: rgb(80,81,82);
+  border-radius: 25px;
+  color: white;
+
+}
+h4{margin:0}
+.can {float:left;width:45px;}
+.ran {float:left;margin:0 0 0 5px;width:215px;}
+.bot{
+  margin-right: 50px;
+}
+.mydiv {
+ 
+    background-color: white;
+    text-align: center;
+  border-radius: 20px;
+   height: 200px;
+    /* width: 400px; */
+
+  }
+  .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    top: -44px;
+    position: relative;
+    z-index: 10000;
+  }
+  
+
+  .border {
+    padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+   border: 1px solid #4CAF50;
+      
+  }
+  
+.fik {
+    margin:0 45%;
+  }
+  .btn{
+    font-weight: bold ;
+    padding: 10px 40px;
+  }
+  .btn-info{
+    float:right;
+    background-color:#1a75ff ;
+  }
+  .panel-header , .jumbotron{
+    background-color: #f8f9fa!important;
+  }
+  .navbar{
+    font-weight: bold;
+  }
+  .br-50{
+    border: 1px solid blue;
+    border-radius: 50%;
+  }
+  .fs-15{
+    font-size: 1.5rem;
+  }
+  footer button{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+  }
+  footer a{
+    text-decoration: none;
+    color:#000;
+  }
+  .circle2{
+  
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+    background-color: rgb(244,244,245);
+  }
+ </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+  <div class="container">
+  <img class="img3" src="group.jpg" align="left" width="40" height="40">&emsp;&emsp;
+  <a class="navbar-brand" href="#myPage">BmCa</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-control="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav m-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Feature</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <button class="btn btn-info navbar-btn float-right">SIGN UP</button></div> 
+    </form>
+  </div>
+</nav>
+
+
+<div class="panel-header" style="padding-top: 50px;">
+  <div class="container">
+  <div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+<header class="jumbotron text-center mb-0 ">
+    <h1 class="w3-margin w3-jumbo"><b>Get ready to work smarter,<br>Easier,faster.</b></h1>
+    <p class="w3-xlarge">A free,fast beautiful way to fund your passion.It only <br>takes a minute to start your page </p>
+    <button class="btn btn-primary ">Start my Page-></button>
+  </header>
+
+
+  <img src="screenshot1.jpg" style="width:100%" class="mb-4 " alt="screenshot">
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h2 class="text-bold" style="text-align:center">Benefitis of BmCa</h2>
+    <hr  style="margin:auto;width:7%;border-top: 2px solid #4CAF50"><br>
+    <p style="text-align:center;font-size: 1.5rem;">Get support with a large platform,flesh out your firstMVP, go from concepts to <br>&emsp;&emsp;investment,or take your startup to the next level</p>
+    
+  </div>
+
+</div>
+<div class="row">
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <!-- <img src="../Images/path1.jpg" class="fishes"height="450"> -->
+        <div class="fish-bg">
+     <img src="page views1.jpg" class="bg-full w3-round w3-image w3-opacity-min fish"  width="450" height="550">  
+    </div></div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+  <div class="py-5 fs-15">
+        <img src="statistics.jpg"  class="w3-left br-50" width="55" height="55">
+        <h4 class="py-4">Your page statistics and data</h4>
+        <p class="pb-3" >Conversation are at the heart of bmac.Set them up projects,teams or any specific topic to stay connected discuss ideas.Highlight any decision or plans on the conversation's Pinboard.</p>
+        <button type="button"  class="btn btn-light">Open now > </button>
+      </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="py-5 fs-15">
+        <img src="trending.jpg"  class=" br-50" width="55" height="55">
+        <h4 class="py-4"><b>Profile statistics and data</b></h4>
+        <p class="pb-3">Conversation are at the heart of Fleep.Set them up around projects,teams or any specific topic to stay connected discuss ideas.Highlight any decision or plans on the conversation's.</p>
+        <button type="button"  class="btn btn-light">Open now > </button>
+      </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      
+          <!-- <img src="../Images/path2.jpg" class="fishes" width="600" height="450"> -->
+    
+        
+       <img src="jack1.jpg" class="bg-full w3-round w3-image w3-opacity-min fish" >
+      </div>
+      </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+        <!-- <img src="../Images/path3.jpg" class="fishes"  height="450"> -->
+  
+      
+     <img src="pingpong1.jpg" class="bg-full bg-80 fish" >
+    
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      <div class="pt-5 mt-5 fs-15">
+        <img src="chat.jpg"  class="w3-left br-50" width="55" height="55">
+        <h4 class="py-4"><b>Chats and Bidding</b></h4>
+        <p class="pb-3">Conversation are at the heart of Fleep.Set them up around projects,teams or any specific topic to stay connected discuss ideas.Highlight any decision or plans on the conversation's Pinboard.</p>
+
+        <button type="button" class="btn btn-light">Open now > </button>
+      </div>
+      </div>
+  </div>
+  </div>
+  </div>
+  </div>
+<div class="container-fluid panel-header">
+<div class="container py-5">
+  <div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+      <h2 class="text-bold" style="text-align:center">Features of BmCa</h2>
+      <hr  style="margin:auto;width:7%;border-top: 2px solid #4CAF50"><br>
+      <p style="text-align:center;font-size: 1.5rem;">Get support with a large platform,flesh out your firstMVP, go from concepts to <br>&emsp;&emsp;investment,or take your startup to the next level</p>
+     
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-3">
+              <div class="mydiv mt-5">
+                <div class="fik">
+                <div class="circle" style="background-color:rgb(50,79,169) ;">
+                <img src="org1.png" width="35" height="35">
+                
+                </div>
+                </div>
+                <h2>Projects</h2>
+                <p>Communicate and collaborates with your team<br> and any Pingpong</p>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-3">
+              
+  <div class="mydiv mt-5">
+    <div class="fik">
+    <div class="circle"  style="background-color:rgb(41,176,192) ;">
+    <img src="fold1.png " widht="45" height="45">
+    
+    </div>
+    </div>
+    
+    
+    
+    <h2>Documents</h2>
+    <p>Go beyond discussion with task to coordinate<br>and track word</p>
+    </div>
+              </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-3">
+
+                  <div class="mydiv mt-5">
+                    <div class="fik">
+                    <div class="circle"  style="background-color:rgb(233,197,60) ;">
+                    <img src="note1.png" widht="25" height="25">
+                    
+                    </div>
+                    </div>
+                    
+                    
+                    
+                    <h2>Notes</h2>
+                    <p>Pin important decisions and plans to the virtual<br>pinboard</p>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-3">
+                    <div class="mydiv mt-5">
+                      <div class="fik">
+                      <div class="circle"  style="background-color:rgb(52,76,107) ;">
+                      <img src="a1.png " widht="45" height="45">
+                      
+                      </div>
+                      </div>
+                      
+                      
+                      
+                      <h2>Richtext Edit</h2>
+                      <p>Use teams to organise your communication in the<br>fleep</p>
+                      </div>
+                  </div> 
+               
+              </div>
+              </div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 my-5">
+    <h2 class="text-bold" style="text-align:center"> BmCa in press</h2>
+    <hr  style="margin:auto;width:7%;border-top: 2px solid #4CAF50"><br>
+    </div>
+    </div>
+  </div>
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 my-5">
+
+  <div class="row2">
+    <div class="column2">
+      <img src="light1.png" alt="Sandwich" style="width:60%">
+      
+    </div>
+    <div class="column2">
+      <img src="asgardia1.png" alt="Steak" style="width:60%">
+     
+    </div>
+    <div class="column2 text-center">
+      <img src="utosia3.png" alt="Cherries" style="width:45%">
+      
+      
+    </div>
+    <div class="column2">
+      <img src="utosia4.png" alt="Pasta and Wine" style="width:60%" class="float-right">
+    </div>
+      <div class="column2 ">
+      <img src="solaytic1.png" alt="source" style="width:60%" class="float-right">
+      
+    </div>
+    
+  </div>
+  </div>
+    </div>
+</div>
+<div class="container bg-black mb-5">
+  <div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 p-5">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-3">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		<div class="can">
+			<img src="qa1.png" >
+    </div>	
+    </div>
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-xs-6">
+	<h4 style="color: rgb(162,162,163);">Ready to go?</h4>
+    <p style="font-size:2rem;font-weight: bold;">Try BmCa Now...</p>
+    </div>
+        </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-3">
+  <div class='col-xs-3'style="float: right; color:black; font-size: .80em; padding:3rem 0">
+    <button class="btn btn-light">GET STARTED</button></div>
+	</div>
+</div></div></div>
+</div>
+<footer> 
+  <div class="container-fluid">
+    <hr  style="margin:auto;width:100%;border-top: 2px solid rgb(244,244,245)">
+    <div class="container my-3">
+
+    
+  <div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-3">
+  
+  <img src="group.jpg" height="50"align="left" width="50"><br>&emsp;Ping Pong<br><br>
+<button>Home</button>
+<button>Contact</button>
+<button>Features</button>
+<button>Pricing</button>
+
+
+
+</div>
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-3">
+  <div class="float-right">
+  
+  <i class="fa fa-instagram w3-hover-opacity circle2"></i>&emsp;
+  <i class="fa fa-twitter w3-hover-opacity circle2"></i>&emsp;
+  <i class="fa fa-linkedin w3-hover-opacity circle2"></i><br><br>
+  
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">©2020 pingpong.All rights Reserved</a></p>
+</div>
+</div>
+</div>
+
+</div>  
+</div>
+
+</div>
+<hr  style="margin:auto;width:100%;border-top: 2px solid rgb(244,244,245)">
+</div>
+
+
+</footer>
+</body>
+
+</html>
